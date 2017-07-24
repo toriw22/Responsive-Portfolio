@@ -16,7 +16,7 @@ body {
 .boxName {
 	background-color: #4aaaa5;
 	color: white;
-	width: 24%;
+	width: 230px;
 	padding: 5px 15px 5px 5px;
 	top:0px;
 	margin-left:30px;
@@ -47,6 +47,7 @@ header {
 	height: 510px;
 	width: 600px;
 	border: solid #cccccc 1px;
+	position:relative;
 
 }
 
@@ -56,6 +57,7 @@ header {
 	height: 840px;
 	width: 600px;
 	border: solid #cccccc 1px;
+	position:relative;
 
 }
 
@@ -68,7 +70,6 @@ header {
 	position: absolute;
 	top: 135px;
 	left: 669px;
-	text-align: center;
 
 }
 
@@ -114,7 +115,7 @@ h4 {
 
 	font-family: Helvetica, sans-serif;
 	float: right;
-	margin-top:30px;
+	margin-top:-60px;
 	margin-right:43px;
 	color: grey;
 	word-spacing: 10px;
@@ -151,10 +152,10 @@ p {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-family: "Arial", sans-serif;
-	width: 960px;
+	width: 100%;
 	border-top: 8px solid #4aaaa5;
 	bottom: 0px;
-	margin-top: 70px;
+	margin-top: 40px;
 	position: relative;
 
 }
@@ -315,51 +316,252 @@ textarea {
 
 @media screen and (max-width: 980px) {
 
-	header {
-		width: 100%;
+	.boxBody {
+
+		margin-left: 30px;
+		margin-right: 60px;
+		height: 700px;
+		width: 600px;
+		border: solid #cccccc 1px;
+		position:relative;
+
+	}
+
+	#meBench {
+
+		height: 370px;
+		width: 530px;
+		float: left;
+		margin-left:32px;
+		margin-right: 15px;
+		margin-bottom: 15px;
+
+	}
+
+	.sideMenu {
+		margin-right:50px;
+
+	}
+
+	textarea {
+		height:310px;
+
+	}
+
+	.boxPort {
+
+		width: 600px;
+		height: 2350px;
+		position: relative;
+		top: 1px;
+		margin-left: 30px;
+		margin-bottom:30px;
+
+	}
+
+	#portfolio {
+
+		height: 400px;
+		width: 500px;
+		float: left;
+		margin-left:45px;
+		margin-right: 15px;
+		margin-bottom: 15px;
+
+	}
+
+	.boxProjects {
+		width: 478px;
+		margin-left:30px;
+	
+	}
+	.boxProject1{
+
+		position:absolute;
+		top:368px;
+		left:17px;
+
+	}
+
+	.boxProject2 {
+
+		position:absolute;
+		top:828px;
+		left:17px;
+
+	}
+
+	.boxProject3 {
+
+		position:absolute;
+		top:1288px;
+		left:17px;
+
+	}
+
+	.boxProject4 {
+
+		position:absolute;
+		top:1735px;
+		left:17px;
+
+	}
+
+	.boxProject5 {
+
+		position:absolute;
+		top:2190px;
+		left:17px;
 
 	}
 	
-	.footer {
-		width: 100%;
-
-		
-	}
-
 
 
 }
 
 @media screen and (max-width: 768px) { 
 
-	header {
-		width: 78%;
+
+	.boxName {
+		margin-left:54px;
+		width: 222px;
 
 	}
-	.footer {
-		width: 78%;
 
-	}
-	
-	.boxBody {
-		
-	}
-
-	.boxPort {
-		
+	.sideMenu {
+		margin-right: 60px;
 
 	}
 
 	.boxNav {
-	
+		width: 85%;
+		height: 160px;
+		position: relative;
+		top: 1px;
+		left:7.5%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.boxBody {
+		width: 85%;
+		height: 440px;
+		position: relative;
+		top: 1px;
+		left: 3.5%;
+		margin-bottom:52px;
+		margin-top: 20px;
 
 	}
-}
 
+	#meBench {
+
+		height: 227px;
+		width: 310px;
+		float: left;
+		margin-left:15px;
+		margin-right: 15px;
+		margin-bottom: 15px;
+
+	}	
+
+	.form {
+
+		margin-left: 17px;
+		margin-bottom: 1px;
+
+	}
+	input[type=text] {
+
+		width: 93%;
+		margin-left: 15px;
+
+	}
+
+	textarea {
+
+		height: 80px;
+		width: 93%;
+		float: left;
+		margin-left:15px;
+		margin-right: 15px;
+		margin-bottom: 15px;
+	}
+
+	.boxPort {
+
+		width: 85%;
+		height: 840px;
+		position: relative;
+		top: 1px;
+		left: 3.5%;
+		margin-bottom:52px;
+		margin-top: 20px;
+
+	}
+
+	#portfolio {
+
+		width: 225px;
+		height: 200px;
+		margin-left: 45px;
+		margin-top:35px;
+
+	}
+
+	.boxProjects {
+
+		background-color: #4aaaa5;
+		color: white;
+		width: 205px;
+		height: 40px;
+		padding: 5px 15px 5px 5px;
+		z-index: 4;
+
+	}
+
+	.boxProject1{
+
+		position:absolute;
+		top:237px;
+		left:45px;
+
+	}
+
+	.boxProject2 {
+
+		position:absolute;
+		top:237px;
+		left:339px;
+
+	}
+
+	.boxProject3 {
+
+		position:absolute;
+		top:475px;
+		left:45px;
+
+	}
+
+	.boxProject4 {
+
+		position:absolute;
+		top:475px;
+		left:339px;
+
+	}
+
+	.boxProject5 {
+
+		position:absolute;
+		top:713px;
+		left:45px;
+
+	}
 @media screen and (max-width: 640px) {
 
 	header {
-		width: 100%;
 		height: 150px;
 
 	}
@@ -404,8 +606,8 @@ textarea {
 		margin-right:21%;
 		word-spacing: 40px;
 		
-
 	}
+
 	.footer {
 		width: 100%;	
 		position:relative;
