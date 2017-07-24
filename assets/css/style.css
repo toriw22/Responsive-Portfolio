@@ -512,6 +512,7 @@ textarea {
 	.boxProjects {
 
 		background-color: #4aaaa5;
+		margin-left:0px;
 		color: white;
 		width: 205px;
 		height: 40px;
@@ -532,7 +533,7 @@ textarea {
 
 		position:absolute;
 		top:237px;
-		left:339px;
+		left:330px;
 
 	}
 
@@ -548,7 +549,7 @@ textarea {
 
 		position:absolute;
 		top:475px;
-		left:339px;
+		left:330px;
 
 	}
 
